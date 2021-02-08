@@ -1,0 +1,52 @@
+#git ignore file for CT4028 Assessment Repo
+
+# Ignore VS2019 generated folder
+**/.vs/
+
+# ignore user preferences VS file
+*.vcxproj.user
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio 2015 cache/options directory
+**/.vs/
+
+#ignore build and intermediate directories
+**/obj/
+**/bin/
+
+#allow specific files that may be covered by the above rule
+!week2/glfwProject/deps/glfw/libs/*/glwf3.lib
+!week2/glfwProject/deps/glm/lib/*/glm_static.lib
+
